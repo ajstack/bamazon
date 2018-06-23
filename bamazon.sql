@@ -26,3 +26,18 @@ VALUES ("Cape", "Clothing", 10.00, 50);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Batmobile", "Vehicle", 10000.00, 2);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Posion Ivy", "Plants", 30.00, 17);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Hammer", "Weapons", 50.00, 1);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Freeze Ray", "Weapons", 1500.00, 5);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Umbrella", "Weapons", 20.00, 90);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Tea Set", "Housewares", 75.00, 20);
