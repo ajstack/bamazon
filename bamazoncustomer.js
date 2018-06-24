@@ -25,5 +25,35 @@ function displayproducts() {
             + res[i].price + " | " + res[i].stock_quantity);
         }
         console.log("------------------------------------------")
+        start();
     });
+}
+
+function start() {
+    inquirer.prompt([
+        {
+            type: "list",
+            message: "What is the id of the product you would like to buy?",
+            choices: ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
+            name: "item"
+        },
+
+        {
+            type: "input",
+            message: "How many would you like to buy?",
+            name: "ammount",
+            validate: function(value){
+                if(isNaN(value) === false){
+                    return true;
+                }
+                return false;
+            }
+        }
+    ])
+
+    .then(function(purchaseInformation){
+        
+
+    })
+
 }
